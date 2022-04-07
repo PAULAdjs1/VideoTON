@@ -1,0 +1,22 @@
+* {
+  background-size: cover;
+  padding: none;
+  margin-left: none;
+}
+
+.container{
+    box-sizing: border-box;
+    margin: none;
+    padding: none;
+    padding-right: none;
+    padding-left: none;
+    margin-right: none;
+    margin-left: none;
+    width: cover;
+}
+
+.img-fluid {
+    box-sizing: content-box;
+    /* height: 250px; se puede borrar y la cinta queda mas estrecha*/
+    width: 200%;
+}
