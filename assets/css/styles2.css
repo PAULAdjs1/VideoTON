@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  .col {
+    
+    
+    cursor: pointer;
+    width: 15%;
+    transition: 0.3s cubic-bezier(0.5, 0, 0.1, 1) transform;
+    transition-delay: 0.15s;
+    background-size: cover;
+  }
+  .col:hover {
+    transform: scale(1.4);
+  }
+  .col:hover:after {
+       background: rgba(0, 0, 0, 0.2);
+       content: "";
+  }

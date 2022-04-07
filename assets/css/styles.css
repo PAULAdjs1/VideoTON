@@ -1,0 +1,116 @@
+body {
+    background-color: black;
+}
+
+#flex-container {
+    display: flex;
+    
+    
+}
+
+#logotipo {
+    margin: 2%;
+    width: 85%;
+}
+
+#collage {
+    margin: 2%;
+    width: 95%;
+}
+
+
+
+.coverImage {
+    width: 101%;
+}
+
+
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 390px and up) 
+@media (min-width: 390px) { 
+    .col {
+        background-color: aqua;
+        margin: 1%;
+        display: inline;
+        width: 17%;
+        height: 120px;
+    }
+    .col-text {
+        background-color: blueviolet;
+        margin: 1%;
+        display: inline;
+        width: 17%;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    .col {
+        background-color: aqua;
+        margin: 1%;
+        display: inline;
+        width: 17%;
+        height: 200px;
+    }
+    
+    .col-text {
+        background-color: blueviolet;
+        margin: 1%;
+        display: inline;
+        width: 17%;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) 
+@media (min-width: 992px) { 
+    .col {
+        background-color: aqua;
+        margin: 1%;
+        display: inline;
+        width: 17%;
+        height: 273px;
+    }
+    
+    .col-text {
+        background-color: blueviolet;
+        margin: 1%;
+        display: inline;
+        width: 17%;
+    }
+ }
+*/
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .col {
+        background-color: black;
+        margin: 2%;
+        display: inline;
+        width: 20%;
+       
+    }
+    
+    .container2 {
+        align-self: center;
+    }
+
+    .paragraph-title {
+        background-color: #611dbb;        ;
+        color: black;
+        text-align: center;
+        padding: 8px;
+    }
+
+    .paragraph-title:hover {
+        background-color: #ceb442;
+    }
+   
+ }
+ 
