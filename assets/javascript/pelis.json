@@ -1,8 +1,8 @@
 var peliculas = [
     {
         "id": 1,
-        "title": "Jurassic Park",
-        "coverImage": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/oU7Oq2kFAAlGqbU4VoAE36g4hoI.jpg",
+        "title": "Los Goonies",
+        "coverImage": "assets/img/portadas/los-goonies.jpg",
         "director": "Steven Spielberg",
         "year": 1993,
         "synopsis": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA.",
@@ -12,8 +12,8 @@ var peliculas = [
     },
     {
         "id": 2,
-        "title": "Ratatouille",
-        "coverImage": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/npHNjldbeTHdKKw28bJKs7lzqzj.jpg",
+        "title": "Los Cazafantasmas",
+        "coverImage": "assets/img/portadas/cazafantasmas.jpg",
         "director": "Brad Bird",
         "year": 2007,
         "synopsis": "Remy, a resident of Paris, appreciates good food and has quite a sophisticated palate. He would love to become a chef so he can create and enjoy culinary masterpieces to his heart's delight. The only problem is, Remy is a rat.",
@@ -23,8 +23,8 @@ var peliculas = [
     },
     {
         "id": 3,
-        "title": "Cruella",
-        "coverImage": "https://pics.filmaffinity.com/Cruella-196211257-large.jpg",
+        "title": "¿Quien engaño a Roger Rabbit?",
+        "coverImage": "assets/img/portadas/WhoFramedRogerRabbit.jpg",
         "director": "Craig Gillespie",
         "year": 2021,
         "synopsis": "Set in London during the punk rock movement of the 1970s, the film revolves around Estella Miller, an aspiring fashion designer, as she explores the path that will lead her to become a notorious up-and-coming fashion designer known as Cruella de Vil.",
@@ -67,13 +67,13 @@ var peliculas = [
     },
     {
         "id": 7,
-        "title": "On the basis of sex",
-        "coverImage": "https://m.media-amazon.com/images/I/71TuUvNkS4L._SL1500_.jpg",
-        "director": "Mimi Leder",
-        "year": 2018,
-        "synopsis": "On the Basis of Sex is inspired by the true story of a young Ruth Bader Ginsburg – then a struggling attorney and new mother – who faces adversity and numerous obstacles in her fight for equal rights throughout her career.",
+        "title": "Jurassic Park",
+        "coverImage": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/oU7Oq2kFAAlGqbU4VoAE36g4hoI.jpg",
+        "director": "Steven Spielberg",
+        "year": 1993,
+        "synopsis": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA.",
         "book": true,
-        "renter": null,
-        "rating": 2
+        "renter": "Paula",
+        "rating": 5
     }
 ];
