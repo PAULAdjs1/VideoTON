@@ -27,7 +27,17 @@ body {
 
 a {
     text-decoration: none;
-}
+    color: inherit;
+  }
+  a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+  a:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+  
 
 
 /*Small devices (landscape phones, 390px and up)*/
@@ -56,7 +66,16 @@ a {
     }
     a {
         text-decoration: none;
-    }
+        color: inherit;
+      }
+      a:visited{ 
+        text-decoration: none;
+        color: inherit;
+      }
+      a:hover {
+        text-decoration: none;
+        color: inherit;
+      }      
  }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -85,8 +104,16 @@ a {
     }
     a {
         text-decoration: none;
-    }
-
+        color: inherit;
+      }
+      a:visited {
+        text-decoration: none;
+        color: inherit;
+      }
+      a:hover {
+        text-decoration: none;
+        color: inherit;
+      }     
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -115,7 +142,16 @@ a {
     }    
     a {
         text-decoration: none;
-    }
+        color: inherit;
+      }
+      a:visited {
+        text-decoration: none;
+        color: inherit;
+      }
+      a:hover {
+        text-decoration: none;
+        color: inherit;
+      }   
 
 
  }
@@ -147,7 +183,15 @@ a {
     }
     a {
         text-decoration: none;
-    }
-
+        color: inherit;
+      }
+      a:visited {
+        text-decoration: none;
+        color: inherit;
+      }
+      a:hover {
+        text-decoration: none;
+        color: inherit;
+      }    
  }
  
