@@ -11,21 +11,20 @@ body{
     margin-left: 2%;
     width: 20%;
 }
-.contenedorPeli{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+a {
+  text-decoration: none;
+  color: inherit;
 }
-.imagenPeli{
-    width: 25%;
+a:visited{
+  text-decoration: none;
+  color: inherit;
 }
-.etiquetaInfo{
-    background-color: aquamarine;
-    width: 50%;
-    height: 50%;
+a:hover{
+  text-decoration: none;
+  color: inherit;
+}
 
-}
+/*BOTON REBOBINA*/
 .wrapper {
     position: relative;
     margin: 35px auto;display: flex;
@@ -54,21 +53,17 @@ body{
     transform: translate(0px, 15px) perspective(200px) rotateX(10deg);
     letter-spacing: 0.125em;
   }
-  .todaInfo{
-      margin-top: -10%;
-  }
+
+/*FLECHAS*/
 
 .contenedor-flechas{
-    position: absolute;
-    display:flex;
-    justify-content: space-around;
-    margin-top: 17%;
-    margin-left: 17%;
-    gap: 750px;
+  position: absolute;
+  display:flex;
+  justify-content: space-around;
+  margin-top: 17%;
+  margin-left: 17%;
+  gap: 750px;
 }
-
-/*flechas*/
-
 .retro-btn {
   text-transform: uppercase;
   background: 0 0;
@@ -301,10 +296,13 @@ body{
   z-index: -1;
 }
 
-
+/*FICHA PELICULA*/
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic);
 
+.todaInfo{
+  margin-top: -10%;
+}
 .container {
   width: 100%;
   height: 100%;
