@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+  }
+  
+  body { 
+    background-color: black;
+  }
+  
+  /*.header-container{
+    display: inline-block;
+      }*/
+  
+  #logo {
+   
+    width: 100%;
+  }
+  
+  .row{
+    margin: 0px;
+  }
+  
+  .img-fluid {
+      width: 230%;
+  }
