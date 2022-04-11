@@ -1,7 +1,3 @@
-body {
-    background-color: black;
-}
-
 #flex-container {
     display: flex;
     
@@ -42,8 +38,18 @@ a {
 
 /*Small devices (landscape phones, 390px and up)*/
 @media (min-width: 390px) { 
+  body{
+    background-image: url(/assets/img/fondo-azul2.jpg);
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+
     .col {
-        background-color: black;
+       
         margin: 2%;
         display: inline;
         width: 20%;
@@ -80,8 +86,19 @@ a {
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
-    .col {
-        background-color: black;
+  body{
+    background-image: url(/assets/img/fondo-azul2.jpg);
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+ 
+  
+  
+  .col {
+        
         margin: 2%;
         display: inline;
         width: 20%;
@@ -118,8 +135,18 @@ a {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-    .col {
-        background-color: black;
+  body{
+    background-image: url(/assets/img/fondo-azul2.jpg);
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+  
+  
+  .col {
+        
         margin: 2%;
         display: inline;
         width: 20%;
@@ -159,8 +186,19 @@ a {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-    .col {
-        background-color: black;
+  body{
+    background-image: url(/assets/img/fondo-azul2.jpg);
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+  
+  
+  
+  .col {
+        
         margin: 2%;
         display: inline;
         width: 20%;
@@ -192,6 +230,35 @@ a {
       a:hover {
         text-decoration: none;
         color: inherit;
-      }    
+      }  
+     
+      .example-1 {
+    width: fit-content;}
+  
+      .dispo {
+        position: absolute;
+        background-color: green;
+        color: #fff;
+        padding-bottom: 0%;
+      }
+      .dispo span .disponible{
+        text-align: center;
+        color: white;
+        font-size: 12px;
+        text-transform: uppercase;
+      }
+     
+      .rented {
+        position: absolute;
+        background-color: red;
+        color: #fff;
+        padding-bottom: 0%;
+      }
+      .rented span .nodisponible{
+        text-align: center;
+        color: white;
+        font-size: 12px;
+        text-transform: uppercase;
+      }
  }
  
