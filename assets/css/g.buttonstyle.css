@@ -1,7 +1,10 @@
 .wrapper {
+  display:flex;
+  margin-top: 10px;
+  flex-wrap: wrap;
   position: relative;
   display: inline-block;
-  margin: 3% auto;
+  
 }
 
 .retro-btn {
