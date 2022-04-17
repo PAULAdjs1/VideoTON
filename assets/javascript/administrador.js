@@ -1,10 +1,5 @@
-
-
-
-
-
-
-
+//MODAL-ALERT
+ const myModal = new bootstrap.Modal(document.getElementById('exampleModal'))
 
 
 
