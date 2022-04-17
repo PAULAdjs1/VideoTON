@@ -20,12 +20,13 @@
 
     <main class="container">
       <!-- Imagen pelicula -->
-      <div class="pelicula">
+      <!-- <div class="pelicula">
         <img src="/img/El club de los cinco.jpg" alt="Pelicula" />
-      </div>
+      </div> -->
 
+      <div id="moviesList" class=" movies-list"></div>
       <!-- Formulario -->
-      <form class="row">
+      <!-- <form class="row">
         <div class="col-8">
           <label for="inputNombre" class="form-label"
             >Titulo</label
@@ -60,7 +61,7 @@
             id="inputSinopsis"
           />
         </div>
-      </form>
+      </form> -->
 
       <!-- BOTONES -->
       <div class="boto">
@@ -126,37 +127,44 @@
           </div>
         </div>
       </div>
-      <!-- MODAL ALERT -->
+      <!-- MODAL-->
       
-      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+      <!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title" id="exampleModalLabel">New message</h4>
+              <h4 class="modal-title" id="exampleModalLabel">Añadir película</h4>
             </div>
             <div class="modal-body">
               <form>
                 <div class="form-group">
-                  <label for="recipient-name" class="control-label">Recipient:</label>
+                  <label for="recipient-name" class="control-label">Titulo:</label>
                   <input type="text" class="form-control" id="recipient-name">
                 </div>
                 <div class="form-group">
-                  <label for="message-text" class="control-label">Message:</label>
-                  <textarea class="form-control" id="message-text"></textarea>
+                  <label for="recipient-name" class="control-label">Director:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="form-group">
+                  <label for="recipient-name" class="control-label">Año:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="form-group">
+                  <label for="recipient-name" class="control-label">Sinopsis:</label>
+                  <input type="text" class="form-control" id="recipient-name">
                 </div>
               </form>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Send message</button>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary">Añadir</button>
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
 
-      <!-- <div
+      <div
         class="modal fade"
         id="exampleModal"
         tabindex="-1"
@@ -169,27 +177,42 @@
               <h5 class="modal-title" id="exampleModalLabel">
                 Añadir Película
               </h5>
-               <button
+               <!-- <button
                 type="button"
                 class="btn-close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
-              ></button> 
+              ></button>  -->
             </div>
             <div class="modal-body">
-              <p>Nombre película:</p>
-              <p>Imagen pelicula:</p>
-              <p>Director:</p>
-              <p>Año:</p>
-              <p>Sinopsis:</p>
-            </div>
+              <form>
+                <div class="form-group">
+                  <label for="recipient-name" class="control-label">Titulo:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="form-group">
+                  <label for="recipient-name" class="control-label">Imagen:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="form-group">
+                  <label for="recipient-name" class="control-label">Director:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="form-group">
+                  <label for="recipient-name" class="control-label">Año:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="form-group">
+                  <label for="recipient-name" class="control-label">Sinopsis:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+              </form>
             <div class="modal-footer">
               <button
                 type="button"
                 class="btn btn-secondary"
                 data-bs-dismiss="modal"
-                aria-label="Close"
-              >
+                aria-label="Close">
                 Cerrar
               </button>
               <button type="button" class="btn btn-primary">
@@ -199,7 +222,9 @@
           </div>
         </div>
       </div>
-    </main> -->
+       <!-- ALERT -->
+      
+    </main>
 
     <!--  Bootstrap JS -->
     <script
@@ -208,5 +233,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="/assets/javascript/administrador.js"></script>
+    <script src="/assets/javascript/admin.js"></script>
   </body>
 </html>

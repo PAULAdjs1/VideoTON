@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/assets/css/adm.css" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+
+</head>
+
+<body>
+  <header>
+    <img src="/img/logo videoton morado 1.png" alt="logo" class="logo" />
+  </header>
+
+  <main id="main"></main>
+
+  <button type="button" id="btnAdd">Añadir</button>
+
+  <div class="modal" id="modalAdd">
+    <div class="form-content">
+      <div class="btn-close-form" onclick="closeModalAdd()">X</div>
+      <form id="formAdd">
+        <div class="form-body">
+          <div class="control">
+            <label>Title:</label>
+            <input type="text" name="title">
+          </div>
+          <div class="control">
+            <label>CoverImage:</label>
+            <input type="text" name="coverImage">
+          </div>
+          <div class="control">
+            <label>Director:</label>
+            <input type="text" name="director">
+          </div>
+          <div class="control">
+            <label>Year:</label>
+            <input type="number" name="year">
+          </div>
+          <div class="control">
+            <label>Synopsis:</label>
+            <input type="text" name="synopsis">
+          </div>
+        </div>
+        <div class="form-footer">
+          <button type="button" onclick="closeModalAdd()">Cancelar</button>
+          <button type="submit">Guardar</button>
+        </div>
+      </form>
+      <span id="msgFormAdd" class="msg-error"></span>
+    </div>
+  </div>
+
+
+<div class="modal" id="modalEdit">
+  <div class="form-content">
+    <div class="btn-close-form" onclick="closeModalEdit">X</div>
+
+    <form id="formEdit">
+      <div class="form-body"></div>
+      <input type="hidden" id="ID">
+      <div class="control">
+        <label>Title:</label>
+        <input type="text" id="title">
+      </div>
+      <div class="control">
+        <label>CoverImage:</label>
+        <input type="text" id="coverImage">
+      </div>
+      <div class="control">
+        <label>Director:</label>
+        <input type="text" id="director">
+      </div>
+      <div class="control">
+        <label>Year:</label>
+        <input type="number" id="year">
+      </div>
+      <div class="control">
+        <label>Synopsis:</label>
+        <input type="text" id="synopsis">
+      </div>
+  </div>
+  </form>
+    
+  <div class="form-footer">
+    <button type="button" onclick="closeModalEdit()">Cancelar</button>
+    <button type="button" onclick="updateMovie()">Guardar Cambios</button>
+  </div>
+  <span id="msgFormEdit" class="msg-error"></span>
+  </div>
+  </div>
+
+
+  <div class="modal" id="modalConfirm">
+    <div class="form-content">
+      <div class="btn-close-form" onclick="closeModalConfirm()">X</div>
+      <div class="form-body">
+        <h3>Eliminar</h3>
+        <p>¿Estás seguro que deseas eliminar esta pelicula?</p>
+      </div>
+      <div class="form-footer">
+        <button type="button" onclick="confirmDelete(false)">No</button>
+        <button type="button" onclick="confirmDelete(true)">Si</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="alert" id="alert">Algo sucedió...</div>
+  <div id="moviesList" class=" movies-list"></div>
+  <!-- <div>Title: Jurrassc Park</div>
+      <div>Coverimage: Jurrassc Park</div>
+      <div> Director: don alguien</div>
+      <div>Year: 1993</div>
+      <div>Synopsis: Dinosaurios uuurrrrr</div>
+      <div class="options">
+        <button type="button">Alterar</button>
+        <button type="button">Eliminar</button>
+      </div>
+    </div>
+  -->
+  
+  <script src="/assets/javascript/admin.js"></script>
+
+</body>
+
+</html>

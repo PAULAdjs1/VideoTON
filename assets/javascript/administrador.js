@@ -1,8 +1,5 @@
-
 //MODAL-ALERT
-const myModal = new bootstrap.Modal(document.getElementById('exampleModal');
-$(document).off('data-bs-dismiss');
-
+ const myModal = new bootstrap.Modal(document.getElementById('exampleModal'))
 
 
 
